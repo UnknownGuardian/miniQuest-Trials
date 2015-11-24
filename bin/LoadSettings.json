@@ -1,0 +1,210 @@
+{ 
+"framerate":30,
+"screen":"none",
+"background":{
+		 "tile":"dark_brick_wall.png",
+		 "tint_color":"0xCCCCFF",
+		 "parallax_speed":0
+		},
+"player":{
+		 "gravity":1.20,
+		 "friction":0.80,
+		 "jump_power":8.5,
+		 "max_y_velocity":11,
+		 "camera_following":false,
+		 "jumps_in_a_row":1,
+		 "min_run_speed":1.0
+		},
+"door":{
+		 "open_speed":2,
+		 "level_lable_font_size":10,
+		 "level_lable_font_color":"0xffffff",
+		 "level_lable_font_width":90,
+		 "level_lable_y_pos":-15,
+		 
+		 "time_label_font_color":"0x55A5F6",
+		 "chest_label_font_color":"0xDFDF00",
+		 
+		 "door_count":30,
+		 
+		 "door_exit_syn":"Exit",
+		 "door_exit_target":"Main Menu",
+		 
+		 "menu_bottom_1": {
+			 "name":"New Game",
+			 "action":""
+		 },
+		 "menu_bottom_2": {
+			 "name":"Secret Level",
+			 "action":""
+		 },
+		 "menu_bottom_4": {
+			 "name":"More Games",
+			 "hover":"Play More Games",
+			 "action":"http://www.games1.com/?utm_medium=brandedgames_external&utm_campaign=miniquesttrials&utm_source=host&utm_content=more_games"
+		 },
+		 "menu_bottom_3": {
+			 "name":"Settings",
+			 "action":""
+		 },
+		 "menu_bottom_5": {
+			 "name":"Credits",
+			 "action":""
+		 },
+		 
+		 "Menu_Hall of Fame 1": {
+			 "name":"Exit",
+			 "action":""
+		 },
+		 "Menu_Hall of Fame 2": {
+			 "name":"Secret Level",
+			 "hover":"A Final Challenge",
+			 "hoverUnlock":"Unlock: Collect All Chests",
+			 "action":"Secret 1"
+		 },
+		 
+		 
+		 "Menu_Credits 1": {
+			 "name":"Matt Pope",
+			 "hover":"Programming",
+			 "action":"http://profusiongames.com/blog/"
+		 },
+		 "Menu_Credits 2": {
+			 "name":"David Arcila",
+			 "hover":"Art & Design",
+			 "action":"http://davidarcila.com"
+		 },
+		 "Menu_Credits 3": {
+			 "name":"Profusion",
+			 "hover":"Developer",
+			 "action":"http://profusiongames.com/"
+		 },
+		 "Menu_Credits 4": {
+			 "name":"Games1.com!",
+			 "hover":"Sponsor",
+			 "action":"http://www.games1.com/?utm_medium=brandedgames_external&utm_campaign=miniquesttrials&utm_source=host&utm_content=credits_menu"
+		 },
+		 "Menu_Credits 5": {
+			 "name":"Freesound",
+			 "hover":"SFX",
+			 "action":"http://www.freesound.org/"
+		 },
+		 "Menu_Credits 6": {
+			 "name":"No Soap Radio",
+			 "hover":"Music",
+			 "action":"http://www.nosoapradio.us/"
+		 },
+		 "Menu_Credits 7": {
+			 "name":"FGL",
+			 "hover":"Game Marketplace",
+			 "action":""
+		 },
+		 "Menu_Credits 8": {
+			 "name":"Exit",
+			 "action":""
+		 },
+		 
+		 
+		 
+		 
+		 "Menu_Settings 1": {
+			 "name":"Exit",
+			 "action":""
+		 },
+		 
+		 
+		 
+		 
+		 "Menu_More Games 1": {
+			 "name":"Games1.com",
+			 "hover":"Play More Games",
+			 "action":"http://www.games1.com/?utm_medium=brandedgames_external&utm_campaign=miniquesttrials&utm_source=host&utm_content=more_games"
+		 },
+		 "Menu_More Games 2": {
+			 "name":"miniPassage",
+			 "hover":"by ProfusionGames",
+			 "action":"http://www.kongregate.com/games/Profusion/minipassage"
+		 },
+		 "Menu_More Games 3": {
+			 "name":"Exit",
+			 "action":""
+		 }
+		 
+		 
+        },
+"menu":{
+		"Menu_Credits":"Give Credit Where Credit is due.\n\n\nAll of these amazing people and sites helped to make this game.",
+		"Menu_More Games":"More Games. You'll never run out. We promise.",
+		"Menu_Hall of Fame":"Only if you have truly beat the game, will your name live on.\n\nTo do so, you need to collect every chest AND beat the secret level!",
+		"Menu_Settings":"Select your settings by collecting keys. \n\n\nThe music is awesome though. We suggest you keep it on."
+		},
+"key":{
+		 "settings 1":{
+			 "saved_name":"Title",
+			 "display_name":"-Unselected-"
+		 },
+		 "settings 2":{
+			 "saved_name":"Title",
+			 "display_name":"-Selected-"
+		 },
+		 "settings 3":{
+			 "saved_name":"Graphics",
+			 "display_name":"Low Graphics"
+		 },
+		 "settings 4":{
+			 "saved_name":"Graphics",
+			 "display_name":"High Graphics"
+		 },
+		 "settings 5":{
+			 "saved_name":"Sound",
+			 "display_name":"Sound Off"
+		 },
+		 "settings 6":{
+			 "saved_name":"Sound",
+			 "display_name":"Sound On"
+		 },
+		 "settings 7":{
+			 "saved_name":"Music",
+			 "display_name":"Music Off"
+		 },
+		 "settings 8":{
+			 "saved_name":"Music",
+			 "display_name":"Music On"
+		 }
+		},
+"transition": {
+		 "duration":30,
+		 "stripeDuration":10,
+		 
+		 "retry_duration":15,
+		 "retry_stripeDuration":5
+		},
+"dirt":{
+		 "disolveSpeed":1,
+		 "distanceAboveToTriggerDisolve":-2
+		},
+"fireball":{
+		 "rotateSpeed":1
+		},
+"chest":{
+		 "flashSpeed":1
+		},
+"spike":{
+		 "tile29":"up",
+		 "tile28":"right",
+		 "tile27":"left",
+		 "tile25":"down",
+		 "up":		{ "width":12, "height":8, "x":-2, "y":-8 },
+		 "down":	{ "width":12, "height":8, "x":-2, "y": 0 },
+		 "left":	{ "width":8, "height":12, "x":-8, "y":-2 },
+		 "right":	{ "width":8, "height":12, "x": 0, "y":-2 }
+		},
+"hud":{
+		 "scrollXY":0,
+		 "font_size":10,
+		 "font_color":"0xffffff",
+		 "font_width":75,
+		 "x_pos":15,
+		 "y_pos":10
+		}
+}
